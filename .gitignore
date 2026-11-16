@@ -1,0 +1,30 @@
+# Ignore everything in the main folder...
+/*
+
+# ...except these
+!/.gitignore
+!/README.md
+!/architecture.txt
+!/client/
+!/server/
+
+# Junk inside the allowed folders
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+dist/
+build/
+*.log
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Documents
+*.docx
+*.pdf
+*.resolved

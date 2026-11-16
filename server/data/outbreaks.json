@@ -1,0 +1,38 @@
+[
+    {
+        "title": "COVID-19",
+        "region": "Global",
+        "level": "high",
+        "whoLink": "https://www.who.int/health-topics/coronavirus"
+    },
+    {
+        "title": "Mpox (Monkeypox)",
+        "region": "Global",
+        "level": "warning",
+        "whoLink": "https://www.who.int/health-topics/monkeypox"
+    },
+    {
+        "title": "Dengue Fever",
+        "region": "Southeast Asia, Americas",
+        "level": "warning",
+        "whoLink": "https://www.who.int/health-topics/dengue-and-severe-dengue"
+    },
+    {
+        "title": "Cholera",
+        "region": "Africa, Asia",
+        "level": "watch",
+        "whoLink": "https://www.who.int/health-topics/cholera"
+    },
+    {
+        "title": "Avian Influenza (H5N1)",
+        "region": "Multiple countries",
+        "level": "watch",
+        "whoLink": "https://www.who.int/influenza/human_animal_interface/en/"
+    },
+    {
+        "title": "Measles",
+        "region": "Europe, Africa",
+        "level": "watch",
+        "whoLink": "https://www.who.int/health-topics/measles"
+    }
+]

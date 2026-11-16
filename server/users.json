@@ -1,0 +1,20 @@
+{
+  "test@medichat.com": {
+    "email": "test@medichat.com",
+    "name": "Test User",
+    "password": "$2b$10$27JfnYyeKSQljG21kCXrouE53qe55V7u3xlD5J7Odaa0zkeCo6oRC",
+    "createdAt": "2026-02-21T14:19:35.706Z"
+  },
+  "abdinesh2004@gmail.com": {
+    "email": "abdinesh2004@gmail.com",
+    "name": "dk",
+    "password": "$2b$10$RJRNrB49huqA2epoxw75S.BekAzHU1XWKT.GL0Fb6hiA9MyH5IMeu",
+    "createdAt": "2026-02-21T14:37:37.328Z"
+  },
+  "dineshkarthickv17@gmail.com": {
+    "email": "dineshkarthickv17@gmail.com",
+    "name": "dk",
+    "password": "$2b$10$muFQxnrDzD/GiMGPwrkPwuh0Ar8obzhiRgnExG5bIJGN/kyRvVjPe",
+    "createdAt": "2026-03-05T16:09:33.118Z"
+  }
+}

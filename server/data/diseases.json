@@ -1,0 +1,318 @@
+[
+    {
+        "id": "flu",
+        "name": "Influenza (Flu)",
+        "symptoms": [
+            "fever",
+            "chills",
+            "body_ache",
+            "cough",
+            "fatigue",
+            "headache",
+            "sore_throat",
+            "runny_nose"
+        ],
+        "description": "Influenza is a contagious respiratory illness caused by influenza viruses.",
+        "prevention": [
+            "Annual flu vaccine (most effective prevention)",
+            "Wash hands frequently with soap",
+            "Avoid close contact with sick people",
+            "Wear masks in crowded places"
+        ],
+        "treatments": [
+            "Oseltamivir (Tamiflu) 75mg twice daily x 5 days (Antiviral)",
+            "Paracetamol 500-1000mg every 6h (Fever/pain)",
+            "Ibuprofen 400mg every 8h (Inflammation)"
+        ],
+        "severity": "Moderate",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+        "severity_question": "How high is your fever and do you have difficulty breathing?"
+    },
+    {
+        "id": "covid-19",
+        "name": "COVID-19",
+        "symptoms": [
+            "fever",
+            "chills",
+            "cough",
+            "shortness_of_breath",
+            "fatigue",
+            "loss_of_taste_smell",
+            "sore_throat"
+        ],
+        "description": "COVID-19 is an infectious disease caused by the SARS-CoV-2 virus.",
+        "prevention": [
+            "Vaccination (mRNA, viral vector vaccines)",
+            "Wear N95/KN95 masks indoors",
+            "Ventilate indoor spaces",
+            "Wash hands; avoid touching face",
+            "Isolate if positive"
+        ],
+        "treatments": [
+            "Nirmatrelvir/Ritonavir (Paxlovid) 300mg/100mg twice daily x 5 days (Antiviral)",
+            "Paracetamol 500-1000mg every 6h (Fever)"
+        ],
+        "severity": "High",
+        "whoLink": "https://www.who.int/health-topics/coronavirus",
+        "severity_question": "Do you have difficulty breathing, chest pain, or confusion?"
+    },
+    {
+        "id": "malaria",
+        "name": "Malaria",
+        "symptoms": [
+            "fever",
+            "chills",
+            "sweating",
+            "headache",
+            "nausea",
+            "body_ache",
+            "fatigue",
+            "jaundice"
+        ],
+        "description": "Malaria is a life-threatening disease caused by Plasmodium parasites transmitted through Anopheles mosquito bites.",
+        "prevention": [
+            "Sleep under insecticide-treated mosquito nets (ITNs)",
+            "Indoor residual spraying (IRS)",
+            "Prophylactic antimalarials when traveling to endemic regions",
+            "Wear long-sleeved clothing at dusk/dawn",
+            "Remove standing water near homes"
+        ],
+        "treatments": [
+            "Artemether-Lumefantrine (Coartem) 4 tabs twice daily x 3 days",
+            "Artesunate IV/IM for severe malaria"
+        ],
+        "severity": "High",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+        "severity_question": "Do you have high fever with chills, jaundice, or altered consciousness?"
+    },
+    {
+        "id": "dengue",
+        "name": "Dengue Fever",
+        "symptoms": [
+            "fever",
+            "headache",
+            "body_ache",
+            "rash",
+            "bleeding",
+            "nausea"
+        ],
+        "description": "Dengue is a viral infection spread by Aedes mosquitoes, prevalent in tropical/subtropical regions.",
+        "prevention": [
+            "Eliminate mosquito breeding sites (standing water)",
+            "Use mosquito repellents (DEET, picaridin)",
+            "Wear protective clothing",
+            "Window/door screens"
+        ],
+        "treatments": [
+            "Paracetamol 500-1000mg every 6h (Fever, safe for dengue)",
+            "ORS sachets (Rehydration)",
+            "AVOID Aspirin, Ibuprofen, NSAIDs (increases bleeding risk)"
+        ],
+        "severity": "High",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+        "severity_question": "Do you have abdominal pain, persistent vomiting, or bleeding?"
+    },
+    {
+        "id": "tuberculosis",
+        "name": "Tuberculosis (TB)",
+        "symptoms": [
+            "cough",
+            "bleeding",
+            "sweating",
+            "fever",
+            "weight_loss",
+            "fatigue",
+            "chest_pain"
+        ],
+        "description": "TB is a bacterial infection caused by Mycobacterium tuberculosis, primarily affecting the lungs.",
+        "prevention": [
+            "BCG vaccination (at birth in endemic countries)",
+            "Ensure good ventilation in living/working spaces",
+            "Complete TB treatment course (prevents resistance)",
+            "Avoid close contact with active TB cases"
+        ],
+        "treatments": [
+            "Isoniazid (H) 5mg/kg/day",
+            "Rifampicin (R) 10mg/kg/day",
+            "Pyrazinamide (Z) 25mg/kg/day",
+            "Ethambutol (E) 15mg/kg/day"
+        ],
+        "severity": "High",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+        "severity_question": "Have you had a cough for more than 3 weeks or coughed up blood?"
+    },
+    {
+        "id": "typhoid",
+        "name": "Typhoid Fever",
+        "symptoms": [
+            "fever",
+            "fatigue",
+            "stomach_pain",
+            "headache",
+            "diarrhea",
+            "rash"
+        ],
+        "description": "Typhoid is a systemic infection caused by Salmonella typhi, transmitted via contaminated food/water.",
+        "prevention": [
+            "Typhoid vaccination (Vi-CPS or Ty21a oral vaccine)",
+            "Drink only boiled or bottled water",
+            "Eat thoroughly cooked food",
+            "Practice good hand hygiene",
+            "Avoid street food in endemic areas"
+        ],
+        "treatments": [
+            "Azithromycin 1g/day x 5 days (Outpatient)",
+            "Ciprofloxacin 500mg twice daily x 7-14 days"
+        ],
+        "severity": "Moderate",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/typhoid",
+        "severity_question": "Do you have a sustained high fever lasting more than 3 days?"
+    },
+    {
+        "id": "cholera",
+        "name": "Cholera",
+        "symptoms": [
+            "diarrhea",
+            "nausea",
+            "body_ache"
+        ],
+        "description": "Cholera is an acute diarrheal disease caused by Vibrio cholerae, often spread through contaminated water.",
+        "prevention": [
+            "Drink only clean, boiled, or treated water",
+            "Oral cholera vaccines (Shanchol, Dukoral)",
+            "Cook food thoroughly; wash vegetables",
+            "Proper sanitation and sewage disposal",
+            "Frequent handwashing with soap"
+        ],
+        "treatments": [
+            "ORS (Oral Rehydration Salts) As directed continuously (critical)",
+            "Azithromycin 1g single dose (Antibiotic)"
+        ],
+        "severity": "Emergency",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/cholera",
+        "severity_question": "Are you severely dehydrated, with very dark urine or no urine at all?"
+    },
+    {
+        "id": "heart-attack",
+        "name": "Myocardial Infarction (Heart Attack)",
+        "symptoms": [
+            "chest_pain",
+            "shortness_of_breath",
+            "sweating",
+            "nausea",
+            "dizziness"
+        ],
+        "description": "A heart attack occurs when blood flow to part of the heart is blocked.",
+        "prevention": [
+            "Control blood pressure, cholesterol, and diabetes",
+            "Quit smoking completely",
+            "Regular exercise and healthy diet",
+            "Manage stress; maintain healthy weight"
+        ],
+        "treatments": [
+            "Aspirin 325mg chew immediately (if conscious)",
+            "Nitroglycerin 0.4mg sublingual (chest pain)",
+            "Emergency medical intervention (Thrombolytics/PCI)"
+        ],
+        "severity": "Emergency",
+        "whoLink": "https://www.who.int/health-topics/cardiovascular-diseases",
+        "severity_question": "Are you having severe, crushing chest pain right now? Call emergency services IMMEDIATELY."
+    },
+    {
+        "id": "asthma",
+        "name": "Asthma",
+        "symptoms": [
+            "shortness_of_breath",
+            "chest_pain",
+            "cough"
+        ],
+        "description": "Asthma is a chronic condition causing airways to narrow and swell, producing extra mucus.",
+        "prevention": [
+            "Identify and avoid triggers (dust, pollen, smoke, pets)",
+            "Use air purifiers; keep home dust-free",
+            "Annual flu vaccination",
+            "Follow written Asthma Action Plan"
+        ],
+        "treatments": [
+            "Salbutamol (Ventolin) - rescue inhaler",
+            "Beclomethasone, Fluticasone - daily controller inhaler",
+            "Montelukast (Daily controller tablet)"
+        ],
+        "severity": "Moderate",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+        "severity_question": "Are you struggling to breathe, speak, or has your rescue inhaler not helped?"
+    },
+    {
+        "id": "diabetes",
+        "name": "Diabetes Mellitus",
+        "symptoms": [
+            "fatigue",
+            "weight_loss"
+        ],
+        "description": "Diabetes is a chronic condition where the body cannot properly regulate blood glucose.",
+        "prevention": [
+            "Maintain healthy body weight (BMI 18.5-24.9)",
+            "Exercise 30 min/day, 5 days/week",
+            "Healthy diet: low sugar, high fiber",
+            "Regular blood sugar screening"
+        ],
+        "treatments": [
+            "Metformin 500-2000mg/day (Type 2, first-line)",
+            "Insulin Glargine (Lantus) SC once daily (Basal insulin)"
+        ],
+        "severity": "Moderate",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+        "severity_question": "Is your blood sugar extremely high (>300 mg/dL) or are you feeling confused/vomiting?"
+    },
+    {
+        "id": "migraine",
+        "name": "Migraine",
+        "symptoms": [
+            "headache",
+            "nausea"
+        ],
+        "description": "A migraine is a neurological disorder with intense, debilitating headaches often with nausea and light sensitivity.",
+        "prevention": [
+            "Maintain regular sleep schedule",
+            "Stay hydrated; skip meals trigger attacks",
+            "Manage stress with relaxation techniques",
+            "Limit caffeine and alcohol",
+            "Identify personal triggers (certain foods, hormones)"
+        ],
+        "treatments": [
+            "Sumatriptan (Acute attack)",
+            "Ibuprofen / Naproxen (Mild-moderate pain)",
+            "Topiramate / Amitriptyline (Prevention)"
+        ],
+        "severity": "Moderate",
+        "whoLink": "https://www.who.int/news-room/fact-sheets/detail/headache-disorders",
+        "severity_question": "Is this the worst headache of your life or did it start suddenly like a thunderclap?"
+    },
+    {
+        "id": "common_cold",
+        "name": "Common Cold",
+        "symptoms": [
+            "runny_nose",
+            "sore_throat",
+            "cough",
+            "body_ache",
+            "fever",
+            "fatigue"
+        ],
+        "description": "The common cold is a viral upper respiratory infection, usually caused by rhinoviruses.",
+        "prevention": [
+            "Wash hands frequently (20 seconds minimum)",
+            "Avoid touching eyes, nose, mouth",
+            "Avoid close contact with sick people",
+            "Maintain good immunity (sleep, nutrition)"
+        ],
+        "treatments": [
+            "Paracetamol / Ibuprofen (Fever and pain relief)",
+            "Pseudoephedrine (Nasal decongestant)",
+            "Loratadine / Cetirizine (Antihistamine)"
+        ],
+        "severity": "Low",
+        "whoLink": "https://www.who.int/health-topics/respiratory-tract-infections",
+        "severity_question": "Have you had a fever for more than 3 days or developed new chest pain?"
+    }
+]

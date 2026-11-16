@@ -1,0 +1,139 @@
+{
+    "fever": [
+        "fever",
+        "high temp",
+        "temperature",
+        "pyrexia",
+        "febrile",
+        "hot"
+    ],
+    "cough": [
+        "cough",
+        "coughing",
+        "hacking",
+        "phlegm",
+        "sputum"
+    ],
+    "headache": [
+        "headache",
+        "head ache",
+        "migraine",
+        "head hurting",
+        "throbbing head",
+        "head pain"
+    ],
+    "fatigue": [
+        "fatigue",
+        "tired",
+        "exhausted",
+        "weakness",
+        "lethargy",
+        "drained"
+    ],
+    "nausea": [
+        "nausea",
+        "vomiting",
+        "throw up",
+        "puking",
+        "sick to stomach"
+    ],
+    "sore_throat": [
+        "sore throat",
+        "throat pain",
+        "scratchy throat",
+        "swallowing pain"
+    ],
+    "body_ache": [
+        "body ache",
+        "muscle pain",
+        "muscle ache",
+        "joint pain",
+        "myalgia"
+    ],
+    "shortness_of_breath": [
+        "shortness of breath",
+        "breathing difficulty",
+        "can't breathe",
+        "wheezing",
+        "dyspnea",
+        "breathless"
+    ],
+    "diarrhea": [
+        "diarrhea",
+        "loose motion",
+        "watery stool",
+        "loose stool",
+        "running stomach"
+    ],
+    "chest_pain": [
+        "chest pain",
+        "chest tightness",
+        "heart pain",
+        "chest pressure",
+        "heart attack"
+    ],
+    "chills": [
+        "chills",
+        "shivering",
+        "shaking",
+        "cold sweats"
+    ],
+    "loss_of_taste_smell": [
+        "loss of taste",
+        "loss of smell",
+        "can't taste",
+        "can't smell",
+        "anosmia",
+        "ageusia"
+    ],
+    "rash": [
+        "rash",
+        "skin redness",
+        "itchy skin",
+        "hives",
+        "spots on skin"
+    ],
+    "runny_nose": [
+        "runny nose",
+        "stuffy nose",
+        "nasal congestion",
+        "sneezing",
+        "sniffles"
+    ],
+    "dizziness": [
+        "dizziness",
+        "lightheaded",
+        "fainting",
+        "vertigo",
+        "passing out",
+        "dizzy"
+    ],
+    "stomach_pain": [
+        "stomach pain",
+        "abdominal pain",
+        "belly ache",
+        "tummy ache",
+        "stomach cramps"
+    ],
+    "weight_loss": [
+        "weight loss",
+        "losing weight",
+        "thinning"
+    ],
+    "sweating": [
+        "sweating",
+        "night sweats",
+        "perspiring heavily",
+        "profuse sweating"
+    ],
+    "jaundice": [
+        "jaundice",
+        "yellow eyes",
+        "yellow skin"
+    ],
+    "bleeding": [
+        "bleeding",
+        "blood",
+        "hemorrhage"
+    ]
+}

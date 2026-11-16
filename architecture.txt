@@ -1,0 +1,66 @@
+                    ┌───────────────────────┐
+                    │        User           │
+                    │   (Ask medical query) │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │     Input Processing   │
+                    │  Text Cleaning / NLP  │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │   Symptom Extraction   │
+                    │  (NLP Entity Detection)│
+                    └───────────┬───────────┘
+                                │
+                                ▼
+              ┌────────────────────────────────┐
+              │   Symptom Analysis Algorithm    │
+              │                                │
+              │  Match symptoms with diseases  │
+              │  Calculate disease probability │
+              └───────────┬────────────────────┘
+                          │
+                          ▼
+              ┌────────────────────────────────┐
+              │     Disease Prediction Module   │
+              │                                │
+              │  Rank possible diseases        │
+              │  Example:                      │
+              │  Dengue → 72%                  │
+              │  Viral Fever → 65%             │
+              └───────────┬────────────────────┘
+                          │
+                          ▼
+              ┌────────────────────────────────┐
+              │        RAG Retrieval Layer      │
+              │                                │
+              │  Convert query to embeddings   │
+              │  Search vector database        │
+              │  Retrieve medical documents    │
+              └───────────┬────────────────────┘
+                          │
+                          ▼
+              ┌────────────────────────────────┐
+              │        Knowledge Database       │
+              │                                │
+              │ WHO reports                    │
+              │ Disease datasets               │
+              │ Medical guidelines             │
+              └───────────┬────────────────────┘
+                          │
+                          ▼
+              ┌────────────────────────────────┐
+              │       Response Generation       │
+              │                                │
+              │ Combine predicted disease      │
+              │ + retrieved medical knowledge  │
+              └───────────┬────────────────────┘
+                          │
+                          ▼
+                    ┌───────────────────────┐
+                    │      Chat Interface    │
+                    │       (MediChat UI)    │
+                    └───────────────────────┘
