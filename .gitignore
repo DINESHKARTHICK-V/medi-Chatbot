@@ -3,6 +3,7 @@
 
 # ...except these
 !/.gitignore
+!/.gitattributes
 !/README.md
 !/architecture.txt
 !/client/
